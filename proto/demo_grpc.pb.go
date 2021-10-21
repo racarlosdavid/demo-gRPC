@@ -97,5 +97,5 @@ var OperacionAritmetica_ServiceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "demo.proto",
+	Metadata: "proto/demo.proto",
 }
