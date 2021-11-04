@@ -29,6 +29,3 @@
 
 ## API - Instalamos gorilla mux para el server
 `go get -u github.com/gorilla/mux`
-
-go get github.com/Pallinder/go-randomdata
-
