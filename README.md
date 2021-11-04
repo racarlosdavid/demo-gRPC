@@ -25,10 +25,10 @@
 
 `export PATH="$PATH:$(go env GOPATH)/bin"`
 
-`protoc --go_out=. --go_opt=paths=source_relative \
-    --go-grpc_out=. --go-grpc_opt=paths=source_relative \
-    proto/demo.proto`
+`protoc --go_out=. --go_opt=paths=source_relative --go-grpc_out=. --go-grpc_opt=paths=source_relative proto/demo.proto`
 
 ## API - Instalamos gorilla mux para el server
 `go get -u github.com/gorilla/mux`
+
+go get github.com/Pallinder/go-randomdata
 
